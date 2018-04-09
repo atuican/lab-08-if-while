@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<body>
+		<script>			
+			var largest = 0;
+					
+			for (var i = 0; i <= 3; i++) {
+				var num = prompt("Number please...");
+				var parnum = parseInt(num, 10);
+				
+				if (parnum > largest) {
+					largest = parnum;
+				}
+				
+				else {
+					largest = largest;
+				}
+			}
+			
+			console.log("The largest number is " + largest);
+			alert("The largest number is " + largest);
+			
+			
+		</script>
+	</body>
+</head>
+</html>
